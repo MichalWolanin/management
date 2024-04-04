@@ -36,5 +36,20 @@
       }
     }
   ],
-  "nxCloudAccessToken": "ZjQwNTYyYWEtMWZiZS00YmRiLTgzMzMtYmU5MTY4ZjdlZmRifHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "ZjQwNTYyYWEtMWZiZS00YmRiLTgzMzMtYmU5MTY4ZjdlZmRifHJlYWQtd3JpdGU=",
+  "targetDefaults": {
+    "@angular-devkit/build-angular:application": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    }
+  },
+  "generators": {
+    "@nx/angular:application": {
+      "e2eTestRunner": "none",
+      "linter": "eslint",
+      "style": "scss",
+      "unitTestRunner": "jest"
+    }
+  }
 }
