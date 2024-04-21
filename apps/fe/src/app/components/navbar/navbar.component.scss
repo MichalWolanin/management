@@ -1,7 +1,8 @@
 @import '../../../styles.scss';
-ś
+
 .app-navbar {
     display: flex;
+    justify-content: space-around;
     //TODO: mixins
     background-color: #FFFFFF;
 
@@ -21,5 +22,22 @@
         margin-right: 50px;
         font-family: 'Lato', sans-serif;
         font-weight: 700;
-        font-style: normal;    }
+        font-style: normal;
+    }
+
+    .app-navbar__right-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .app-navbar__profile {
+        margin-left: 15px;
+    }
+
+    .app-navbar__profile-button {
+        background-color: #C3C3C3;
+        border-radius: 50px;
+        padding: 8px;
+    }
 }
