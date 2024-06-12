@@ -15,6 +15,8 @@ export class AppComponent implements OnInit {
   title = 'Restaurant Management';
 
   ngOnInit(): void {
-    initFlowbite();
+    if (typeof document !== 'undefined') {
+      initFlowbite();
+    }
   }
 }
