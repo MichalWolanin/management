@@ -4,10 +4,11 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { initFlowbite } from 'flowbite';
 import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
 import { SummaryComponent } from './components/summary/summary.component';
+import { DetailsComponent } from '@restaurant-management/details';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, NavbarComponent, BreadcrumbComponent, SummaryComponent],
+  imports: [RouterModule, NavbarComponent, BreadcrumbComponent, SummaryComponent, DetailsComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
