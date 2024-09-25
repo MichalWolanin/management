@@ -1,15 +1,69 @@
-<div class="app-summary">
-    <div class="app-summary__order">
-        <span class="app-summary__order-title">Your Orders</span>
-        <span class="app-summary__order-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt pulvinar diam sed egestas. </span>
-        <button class="app-summary__order-button">Create New Order</button>
+
+<div class="app-summary" >
+  <div class="app-summary__order">
+    <span class="app-summary__order-title">Your Orders</span>
+    <span class="app-summary__order-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      tincidunt pulvinar diam sed egestas. </span>
+    <button (click)="showDialog()" class="app-summary__order-button">Create New Order</button>
+  </div>
+  <div class="app-summary__dialog">
+    <p-dialog [(visible)]="visible" [modal]="true" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+      styleClass="custom-dialog"
+      [draggable]="false" [resizable]="false" [closeOnEscape]="false">
+      <div class="app-summary__order-new-header">
+        Create New Order
+      </div>
+      <div class="app-summary__order-new-container">
+        <div class="app-summary__order-new-column">
+          <div class="app-summary__order-new-table-row">
+            <img src="assets/icons/chair.svg" alt="chair" class="app-summary__order-new-icons">
+            <div class="app-summary__order-new-table-item">Table</div>
+            <div class="app-summary__order-new-table-select">
+              <p-dropdown panelStyleClass="app-summary__order-new-dropdown"[options]="items" [(ngModel)]="selectedItem" placeholder="Select Item" [virtualScroll]="true"
+                [virtualScrollItemSize]="20" />
+            </div>
+          </div>
+          <div class="app-summary__order-new-table-row">
+            <img src="assets/icons/groups.svg" alt="chair" class="app-summary__order-new-group">
+            <div class="app-summary__order-new-table-item">Nunber Of People</div>
+            <div class="app-summary__order-new-table-select">
+            <p-dropdown panelStyleClass="app-summary__order-new-dropdown" [options]="items" [(ngModel)]="selectedItem" placeholder="Select Item" [virtualScroll]="true"
+              [virtualScrollItemSize]="20" />
+            </div>
+          </div>
+          <div class="app-summary__order-new-table-row">
+            <img src="assets/icons/child_friendly.svg" alt="chair" class="app-summary__order-new-icons">
+            <div class="app-summary__order-new-table-item">Kids</div>
+            <label class="app-summary__order-new-checkbox-container">
+            <input type="checkbox" class="app-summary__order-new-check">
+            <span class="checkmark"></span>
+          </label>
+          </div>
+          <div class="app-summary__order-new-table-row">
+            <img src="assets/icons/pets.svg" alt="chair" class="app-summary__order-new-icons">
+            <div class="app-summary__order-new-table-item">Pets</div>
+            <label class="app-summary__order-new-checkbox-container">
+            <input type="checkbox" class="app-summary__order-new-check">
+            <span class="checkmark"></span>
+          </label>
+          </div>
+        </div>
+      </div>
+        <img src="assets/icons/chef.svg"class="app-summary__order-new-image" alt="order">
+      <div class="app-summary__order-new-buttons">
+        <button class="app-summary__order-new-cancel" (click)="showDialog()">Cancel</button>
+        <button class="app-summary__order-new-add">Add</button>
     </div>
-    <div class="app-summary__cash">
-        <span class="app-summary__cash-title">This Week</span>
-        <span class="app-summary__cash-amount">$1329</span>
-    </div>
-    <div class="app-summary__cash">
-        <span class="app-summary__cash-title">This Month</span>
-        <span class="app-summary__cash-amount">$5,329</span>
-    </div>
+
+    </p-dialog>
+    <div *ngIf="visible" class="app-summary__order-greyout"></div>
+  </div>
+  <div class="app-summary__cash">
+    <span class="app-summary__cash-title">This Week</span>
+    <span class="app-summary__cash-amount">$1329</span>
+  </div>
+  <div class="app-summary__cash">
+    <span class="app-summary__cash-title">This Month</span>
+    <span class="app-summary__cash-amount">$5,329</span>
+  </div>
 </div>
