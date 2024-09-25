@@ -202,8 +202,15 @@
       border-radius: 8px;
       background-color: #C3C3C3;
     }
+    .app-summary__order-new-table-select{
+      border: black 2px solid;
+      height: 40px;
+      padding:0 8px 0 8px ;
+      border-radius: 5px;
+    }
     :host ::ng-deep .app-summary__order-new-dropdown{
       background-color: #EBEBEB;
+
     }
     :host ::ng-deep .custom-dialog {
       width: 1200px;

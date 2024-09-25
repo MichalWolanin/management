@@ -26,8 +26,10 @@
           <div class="app-summary__order-new-table-row">
             <img src="assets/icons/groups.svg" alt="chair" class="app-summary__order-new-group">
             <div class="app-summary__order-new-table-item">Nunber Of People</div>
-            <p-dropdown panelStyleClass="app-summary__order-new-dropdown" [options]="items" [(ngModel)]="selectedItem" placeholder="Select Item" [virtualScroll]="true"
+            <div class="app-summary__order-new-table-select">
+            <p-dropdown panelStyleClass="app-summary__order-new-dropdown" [options]="items" [virtualScrollOptions]="options"[(ngModel)]="selectedItem" placeholder="Select Item" [virtualScroll]="true"
               [virtualScrollItemSize]="20" />
+            </div>
           </div>
           <div class="app-summary__order-new-table-row">
             <img src="assets/icons/child_friendly.svg" alt="chair" class="app-summary__order-new-icons">
