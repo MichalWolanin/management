@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michalwolanin/Documents/Projekty/management/be/be.csproj": {}
+    "D:\\myStuff\\management\\be\\be.csproj": {}
   },
   "projects": {
-    "/Users/michalwolanin/Documents/Projekty/management/be/be.csproj": {
+    "D:\\myStuff\\management\\be\\be.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michalwolanin/Documents/Projekty/management/be/be.csproj",
+        "projectUniqueName": "D:\\myStuff\\management\\be\\be.csproj",
         "projectName": "be",
-        "projectPath": "/Users/michalwolanin/Documents/Projekty/management/be/be.csproj",
-        "packagesPath": "/Users/michalwolanin/.nuget/packages/",
-        "outputPath": "/Users/michalwolanin/Documents/Projekty/management/be/obj/",
+        "projectPath": "D:\\myStuff\\management\\be\\be.csproj",
+        "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
+        "outputPath": "D:\\myStuff\\management\\be\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/michalwolanin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
