@@ -1,0 +1,190 @@
+[NX Daemon Server] - 2024-12-12T22:17:48.483Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T22:17:48.487Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T22:17:48.488Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:17:48.488Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:17:48.489Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:17:48.490Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:17:48.490Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:17:48.490Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:17:48.492Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:17:48.493Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T22:17:48.493Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (outputs)
+[NX Daemon Server] - 2024-12-12T22:36:43.747Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T22:36:43.751Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T22:36:43.753Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:36:43.753Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:36:43.754Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:36:43.754Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:36:43.755Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:36:43.755Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-12T22:36:43.755Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:36:43.755Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T22:36:43.755Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (outputs)
+[NX Daemon Server] - 2024-12-12T22:37:10.366Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T22:37:10.369Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T22:37:10.372Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:37:10.372Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:37:10.374Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:37:10.374Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:37:10.375Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:37:10.375Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-12T22:37:10.375Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:37:10.376Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T22:37:10.376Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (outputs)
+[NX Daemon Server] - 2024-12-12T22:37:22.873Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T22:37:22.875Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T22:37:22.877Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:37:22.878Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:37:22.878Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:37:22.879Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:37:22.879Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:37:22.879Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:37:22.880Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:37:22.880Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T22:37:22.880Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (outputs)
+[NX Daemon Server] - 2024-12-12T22:39:38.018Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T22:39:38.022Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T22:39:38.023Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:39:38.024Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:39:38.025Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:39:38.026Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:39:38.026Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:39:38.026Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:39:38.027Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:39:38.027Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T22:39:38.027Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (outputs)
+[NX Daemon Server] - 2024-12-12T22:40:07.247Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T22:40:07.253Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T22:40:07.257Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:40:07.260Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:40:07.289Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:40:07.291Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:40:07.292Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:40:07.293Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-12T22:40:07.740Z - Time taken for 'Load Nx Plugin: /Users/michalwolanin/Documents/Projekty/management/node_modules/nx/src/plugins/package-json' 440.43687500000004ms
+[NX Daemon Server] - 2024-12-12T22:40:07.745Z - Time taken for 'Load Nx Plugin: /Users/michalwolanin/Documents/Projekty/management/node_modules/nx/src/plugins/js' 446.61383400000005ms
+[NX Daemon Server] - 2024-12-12T22:40:07.762Z - Time taken for 'Load Nx Plugin: /Users/michalwolanin/Documents/Projekty/management/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 462.81666700000005ms
+[NX Daemon Server] - 2024-12-12T22:40:07.854Z - Time taken for 'Load Nx Plugin: @nx/jest/plugin' 557.375ms
+[NX Daemon Server] - 2024-12-12T22:40:07.857Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 560.6685ms
+[NX Daemon Server] - 2024-12-12T22:40:07.961Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-12T22:40:07.961Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-12T22:40:07.961Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-12T22:40:07.981Z - Time taken for 'loadNxPlugins' 663.681ms
+[NX Daemon Server] - 2024-12-12T22:40:07.985Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:40:07.986Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:40:07.986Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:40:07.992Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-12-12T22:40:07.992Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-12-12T22:40:07.992Z - Handled GLOB. Handling time: 4. Response time: 1.
+[NX Daemon Server] - 2024-12-12T22:40:07.992Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:40:07.992Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-12T22:40:07.992Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:40:07.995Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:07.996Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:07.996Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-12-12T22:40:08.011Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:08.011Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:08.011Z - Handled HASH_GLOB. Handling time: 9. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:40:08.188Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:08.188Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:08.188Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:40:08.189Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:08.189Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:40:08.189Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:40:08.237Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-12T22:40:08.237Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:40:08.238Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-12T22:40:08.239Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:40:08.239Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T22:40:08.239Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:40:08.241Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T22:40:08.241Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:40:08.241Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:40:08.241Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:40:08.241Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:40:08.241Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (outputs)
+[NX Daemon Server] - 2024-12-12T22:42:58.751Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T22:42:58.754Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T22:42:58.756Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:42:58.757Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:42:58.765Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:42:58.765Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T22:42:58.765Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T22:42:58.766Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-12T22:42:58.813Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-12T22:42:58.982Z - Time taken for 'Load Nx Plugin: /Users/michalwolanin/Documents/Projekty/management/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 212.044416ms
+[NX Daemon Server] - 2024-12-12T22:42:58.988Z - Time taken for 'Load Nx Plugin: /Users/michalwolanin/Documents/Projekty/management/node_modules/nx/src/plugins/package-json' 218.64891699999998ms
+[NX Daemon Server] - 2024-12-12T22:42:59.000Z - Time taken for 'Load Nx Plugin: /Users/michalwolanin/Documents/Projekty/management/node_modules/nx/src/plugins/js' 231.420834ms
+[NX Daemon Server] - 2024-12-12T22:42:59.033Z - Time taken for 'Load Nx Plugin: @nx/jest/plugin' 264.59345899999994ms
+[NX Daemon Server] - 2024-12-12T22:42:59.034Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 266.459541ms
+[NX Daemon Server] - 2024-12-12T22:42:59.080Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-12T22:42:59.080Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-12T22:42:59.080Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-12T22:42:59.088Z - Time taken for 'loadNxPlugins' 313.47612499999997ms
+[NX Daemon Server] - 2024-12-12T22:42:59.089Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:42:59.090Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:42:59.090Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:42:59.091Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.091Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.091Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:42:59.092Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:42:59.092Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:42:59.092Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:42:59.093Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.093Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.093Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:42:59.095Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.095Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.095Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:42:59.278Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.278Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.278Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:42:59.279Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.279Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:42:59.279Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+(node:80843) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[NX Daemon Server] - 2024-12-12T22:43:00.375Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:43:00.375Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-12-12T22:43:00.375Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T22:43:00.829Z - Time taken for 'build-project-configs' 1741.9532090000002ms
+[NX Daemon Server] - 2024-12-12T22:43:00.897Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-12T22:43:00.898Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-12T22:43:00.898Z - Time taken for 'total for creating and serializing project graph' 2131.5784169999997ms
+[NX Daemon Server] - 2024-12-12T22:43:00.901Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-12T22:43:00.901Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2132. Response time: 3.
+[NX Daemon Server] - 2024-12-12T22:43:00.906Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-12-12T22:43:00.907Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-12-12T22:43:00.907Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-12T22:43:00.908Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T22:43:01.054Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:43:01.054Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-12T22:43:01.054Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T22:43:01.055Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-12T22:43:01.055Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-12T22:43:01.055Z - Time taken for 'total for creating and serializing project graph' 0.15145799999982046ms
+[NX Daemon Server] - 2024-12-12T22:43:01.056Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-12T22:43:01.056Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-12T22:43:01.059Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-12T22:43:01.059Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-12T22:43:01.061Z - Time taken for 'total for creating and serializing project graph' 0.10762500000009823ms
+[NX Daemon Server] - 2024-12-12T22:43:01.063Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-12T22:43:01.063Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-12-12T22:43:01.065Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-12T23:20:22.219Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-12T23:20:22.223Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-12T23:20:22.223Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T23:20:22.223Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T23:20:22.223Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T23:20:22.223Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T23:24:12.436Z - Started listening on: /var/folders/nd/mnmbchs51678qy6kv99p368w0000gn/T/b77008f7cc9e51204a1e/d.sock
+[NX Daemon Server] - 2024-12-12T23:24:12.438Z - [WATCHER]: Subscribed to changes within: /Users/michalwolanin/Documents/Projekty/management (native)
+[NX Daemon Server] - 2024-12-12T23:24:12.439Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T23:24:12.440Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-12T23:24:12.440Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-12T23:24:12.441Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-12-12T23:24:12.441Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-12-12T23:24:12.441Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-12T23:24:12.443Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (sources)
+[NX Daemon Server] - 2024-12-12T23:24:12.443Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-12T23:24:12.443Z - [WATCHER]: Stopping the watcher for /Users/michalwolanin/Documents/Projekty/management (outputs)

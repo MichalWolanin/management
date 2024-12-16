@@ -1,0 +1,573 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.2.2",
+  "pathMappings": {
+    "@restaurant-management/details": [
+      "libs/details/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "15629280613521941793"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1041111033975495896"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "12934437623347737003"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vs/ProjectEvaluation/be.metadata.v8.bin",
+        "hash": "8131154723278250773"
+      },
+      {
+        "file": ".vs/ProjectEvaluation/be.projects.v8.bin",
+        "hash": "16577927765815036041"
+      },
+      {
+        "file": ".vs/ProjectEvaluation/be.strings.v8.bin",
+        "hash": "18390530035884184940"
+      },
+      {
+        "file": ".vs/VSWorkspaceState.json",
+        "hash": "133213477497528152"
+      },
+      {
+        "file": ".vs/be/DesignTimeBuild/.dtbcache.v2",
+        "hash": "16961150161514384775"
+      },
+      {
+        "file": ".vs/be/FileContentIndex/3978f0df-ecd1-4836-a792-94485f90b8c8.vsidx",
+        "hash": "6572121220564249755"
+      },
+      {
+        "file": ".vs/be/FileContentIndex/c291ceaf-b440-4692-a782-ccdbe4516849.vsidx",
+        "hash": "2876754992210102521"
+      },
+      {
+        "file": ".vs/be/config/applicationhost.config",
+        "hash": "16860083609355585331"
+      },
+      {
+        "file": ".vs/be/v17/.futdcache.v2",
+        "hash": "8226012012930011112"
+      },
+      {
+        "file": ".vs/be/v17/.suo",
+        "hash": "18428157912063668172"
+      },
+      {
+        "file": ".vs/be/v17/DocumentLayout.json",
+        "hash": "18252183795251010063"
+      },
+      {
+        "file": ".vs/management/FileContentIndex/1df99cf1-1c63-48cc-bc89-ea36c80013cc.vsidx",
+        "hash": "9407718077999461152"
+      },
+      {
+        "file": ".vs/management/FileContentIndex/56fa4eb6-8a46-4ac3-968d-15c9b9a0bbe4.vsidx",
+        "hash": "6572121220564249755"
+      },
+      {
+        "file": ".vs/management/FileContentIndex/c5cd76da-53ef-440e-bf18-0c6430dbd26e.vsidx",
+        "hash": "9038596313901892812"
+      },
+      {
+        "file": ".vs/management/FileContentIndex/e259a8e1-c561-4a98-8a69-621606368d46.vsidx",
+        "hash": "14598090799928043047"
+      },
+      {
+        "file": ".vs/management/FileContentIndex/efb58483-ffeb-46d3-889f-c5f55914df8f.vsidx",
+        "hash": "6335469910806070355"
+      },
+      {
+        "file": ".vs/management/v17/.futdcache.v2",
+        "hash": "15342420860485960372"
+      },
+      {
+        "file": ".vs/management/v17/.wsuo",
+        "hash": "14698390239604589053"
+      },
+      {
+        "file": ".vs/management/v17/DocumentLayout.json",
+        "hash": "18252183795251010063"
+      },
+      {
+        "file": ".vs/slnx.sqlite",
+        "hash": "18384873111462869741"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "11027564634444558193"
+      },
+      {
+        "file": "README.md",
+        "hash": "7482593315612289841"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "2884302848524011766"
+      },
+      {
+        "file": "nx.json",
+        "hash": "8217147912332766808"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "10768696177181374500"
+      },
+      {
+        "file": "package.json",
+        "hash": "10442774831400763770"
+      },
+      {
+        "file": "storybook-migration-summary.md",
+        "hash": "13461239589321751218"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "10752846922734274098"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "2649148053905924964"
+      }
+    ],
+    "projectFileMap": {
+      "fe": [
+        {
+          "file": "apps/fe/.eslintrc.json",
+          "hash": "6271881729950663888"
+        },
+        {
+          "file": "apps/fe/.storybook/main.ts",
+          "hash": "5898206950096336843",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "apps/fe/.storybook/preview.ts",
+          "hash": "16880672095192379121"
+        },
+        {
+          "file": "apps/fe/.storybook/tsconfig.json",
+          "hash": "3580233103277275370"
+        },
+        {
+          "file": "apps/fe/jest.config.ts",
+          "hash": "14765683095144482455"
+        },
+        {
+          "file": "apps/fe/project.json",
+          "hash": "10628656002175229120"
+        },
+        {
+          "file": "apps/fe/server.ts",
+          "hash": "1677470708837359654",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/ssr",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/app.component.html",
+          "hash": "14370476092734403048"
+        },
+        {
+          "file": "apps/fe/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/fe/src/app/app.component.spec.ts",
+          "hash": "1285050493797164964",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/app.component.stories.ts",
+          "hash": "13235271088177797469",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/app.component.ts",
+          "hash": "7407619536962930150",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:flowbite",
+            "details"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/app.config.server.ts",
+          "hash": "472700109066692288",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-server"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/app.config.ts",
+          "hash": "14401526200778243490",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/breadcrumb/breadcrumb.component.html",
+          "hash": "4390235458856397193"
+        },
+        {
+          "file": "apps/fe/src/app/components/breadcrumb/breadcrumb.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/fe/src/app/components/breadcrumb/breadcrumb.component.spec.ts",
+          "hash": "6899403219942339488",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/breadcrumb/breadcrumb.component.stories.ts",
+          "hash": "6289450118926607961",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/breadcrumb/breadcrumb.component.ts",
+          "hash": "1447737553525395556",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/navbar/navbar.component.html",
+          "hash": "16578123598890059096"
+        },
+        {
+          "file": "apps/fe/src/app/components/navbar/navbar.component.scss",
+          "hash": "13225621202199870728"
+        },
+        {
+          "file": "apps/fe/src/app/components/navbar/navbar.component.spec.ts",
+          "hash": "11611426068913683136",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/navbar/navbar.component.stories.ts",
+          "hash": "9305786608363073286",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/navbar/navbar.component.ts",
+          "hash": "4705917542261798531",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/summary/summary.component.html",
+          "hash": "16924546959929009538"
+        },
+        {
+          "file": "apps/fe/src/app/components/summary/summary.component.scss",
+          "hash": "8969822043012739271"
+        },
+        {
+          "file": "apps/fe/src/app/components/summary/summary.component.spec.ts",
+          "hash": "5888800197135663143",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/fe/src/app/components/summary/summary.component.ts",
+          "hash": "6876766919028771588",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/fe/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-Black.ttf",
+          "hash": "7132703379369568582"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-BlackItalic.ttf",
+          "hash": "5325792802243009639"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-Bold.ttf",
+          "hash": "5413584660409976953"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-BoldItalic.ttf",
+          "hash": "9843473233761659539"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-Italic.ttf",
+          "hash": "9894674455490677966"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-Light.ttf",
+          "hash": "11662692782042457121"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-LightItalic.ttf",
+          "hash": "2763771744541318344"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-Regular.ttf",
+          "hash": "15991203469818539120"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-Thin.ttf",
+          "hash": "10106614687229089345"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/Lato-ThinItalic.ttf",
+          "hash": "8477555783876821066"
+        },
+        {
+          "file": "apps/fe/src/assets/fonts/Lato/OFL.txt",
+          "hash": "2741818209036516924"
+        },
+        {
+          "file": "apps/fe/src/assets/icons/chair.svg",
+          "hash": "9224399780704814407"
+        },
+        {
+          "file": "apps/fe/src/assets/icons/chef.svg",
+          "hash": "6649460457145591384"
+        },
+        {
+          "file": "apps/fe/src/assets/icons/child_friendly.svg",
+          "hash": "1283059000823327912"
+        },
+        {
+          "file": "apps/fe/src/assets/icons/groups.svg",
+          "hash": "13203521033611023277"
+        },
+        {
+          "file": "apps/fe/src/assets/icons/pets.svg",
+          "hash": "11255908865791326341"
+        },
+        {
+          "file": "apps/fe/src/assets/icons/profile.png",
+          "hash": "18152283947880131033"
+        },
+        {
+          "file": "apps/fe/src/assets/logotype/logotype.png",
+          "hash": "14667293644610427025"
+        },
+        {
+          "file": "apps/fe/src/assets/logotype/logotype_animation.gif",
+          "hash": "17748239998226590255"
+        },
+        {
+          "file": "apps/fe/src/assets/mixins/variables.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/fe/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/fe/src/index.html",
+          "hash": "5690269277579414090"
+        },
+        {
+          "file": "apps/fe/src/main.server.ts",
+          "hash": "11653607448136507287",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/fe/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/fe/src/styles.scss",
+          "hash": "14448264296600103694"
+        },
+        {
+          "file": "apps/fe/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/fe/tailwind.config.js",
+          "hash": "4616538962241029475",
+          "deps": [
+            "npm:@nx/angular"
+          ]
+        },
+        {
+          "file": "apps/fe/tsconfig.app.json",
+          "hash": "5407939671504011927"
+        },
+        {
+          "file": "apps/fe/tsconfig.editor.json",
+          "hash": "10652779746606967282"
+        },
+        {
+          "file": "apps/fe/tsconfig.json",
+          "hash": "13347244080473134925"
+        },
+        {
+          "file": "apps/fe/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "details": [
+        {
+          "file": "libs/details/.eslintrc.json",
+          "hash": "9628345067573567197"
+        },
+        {
+          "file": "libs/details/README.md",
+          "hash": "959598469199395874"
+        },
+        {
+          "file": "libs/details/jest.config.ts",
+          "hash": "15267800463253597904"
+        },
+        {
+          "file": "libs/details/project.json",
+          "hash": "1622377904858227646"
+        },
+        {
+          "file": "libs/details/src/index.ts",
+          "hash": "9134596369772291806"
+        },
+        {
+          "file": "libs/details/src/lib/details/details.component.html",
+          "hash": "9616826081329972315"
+        },
+        {
+          "file": "libs/details/src/lib/details/details.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/details/src/lib/details/details.component.spec.ts",
+          "hash": "1926125374495062398",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/details/src/lib/details/details.component.ts",
+          "hash": "7657508594003290752",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/details/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/details/tsconfig.json",
+          "hash": "15487755565970508470"
+        },
+        {
+          "file": "libs/details/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/details/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ]
+    }
+  }
+}
